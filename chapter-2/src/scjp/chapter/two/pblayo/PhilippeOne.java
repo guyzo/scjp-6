@@ -1,4 +1,4 @@
-package scjp.two.pblayo;
+package scjp.chapter.two.pblayo;
 
 public class PhilippeOne {
 
