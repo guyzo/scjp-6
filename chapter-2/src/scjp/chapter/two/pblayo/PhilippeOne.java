@@ -19,8 +19,7 @@ public class PhilippeOne {
 	}
 }
 
-/* Question :
- * What is the result of compilation :
+/* What is the result :
  * A/ 00
  * B/ compilation error at line 7
  * C/ compilation error at line 12
