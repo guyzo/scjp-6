@@ -6,4 +6,20 @@ Do not commit Eclipse, Intellij, or NetBeans specific files.
 
 Respect the following package convention : scjp.chapter.<number>.<your-name>
 
+--Well, here this is mehdi speaking (writing)
+
+First thanks Etienne, I followed your pattern and what you described to submit new exercises.
+
+In the same time I have a suggestion : 
+
+I created a maven project for chapter 2 (under ch2) to make it easier getting the classes 
+and then importing them in eclipse (for example) to run and check them.
+
+for this project I followed another package convention scjp.chapter2.<yourname>
+(scjp : groupId, chapter2 : artifactId since you chose to create a project for each chapter)
+
+I added the exercises that have been already submitted.
+
+Finally I added a gitignore file suited for eclipse.
+
 Thank you.
