@@ -1,3 +1,4 @@
+package scjp.chapter.two.idrisbigui;
 public interface IContext
 {
 	public double originX = 0;

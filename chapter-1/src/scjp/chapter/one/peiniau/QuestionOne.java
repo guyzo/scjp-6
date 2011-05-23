@@ -1,5 +1,7 @@
 package scjp.chapter.one.peiniau;
 
+import scjp.chapter.three.slorber.QuestionOne;
+
 public class QuestionOne {
 	
 	public void example() {
