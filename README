@@ -1,25 +1,20 @@
-To checkout the project : git clone git@github.com:lepnio/scjp-6.git
+
+
+Before using GIT, make sure you have created an SSH key and that you set your public key on your git account.
+Don't forget to ask for commit rights
+
+To checkout the project : 
+git clone git@github.com:lepnio/scjp-6.git
 
 Each chapter is put in a different project.
 
 Do not commit Eclipse, Intellij, or NetBeans specific files.
 
-Respect the following package convention : scjp.chapter.<number>.<your-name>
+Respect the following package convention : scjp.chapter.<number>.<your-name-or-alias>
 
---Well, here this is mehdi speaking (writing)
 
-First thanks Etienne, I followed your pattern and what you described to submit new exercises.
 
-In the same time I have a suggestion : 
+To update the project:
+git pull --rebase
 
-I created a maven project for chapter 2 (under ch2) to make it easier getting the classes 
-and then importing them in eclipse (for example) to run and check them.
 
-for this project I followed another package convention scjp.chapter2.<yourname>
-(scjp : groupId, chapter2 : artifactId since you chose to create a project for each chapter)
-
-I added the exercises that have been already submitted.
-
-Finally I added a gitignore file suited for eclipse.
-
-Thank you.
