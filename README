@@ -1,7 +1,7 @@
 
 
-Before using GIT, make sure you have created an SSH key and that you set your public key on your git account.
-Don't forget to ask for commit rights
+Before using GIT, make sure you have created an SSH key and that you set your public key on your git account or it won't work.
+Don't forget to ask for commit rights.
 
 To checkout the project : 
 git clone git@github.com:lepnio/scjp-6.git
@@ -14,7 +14,27 @@ Respect the following package convention : scjp.chapter.<number>.<your-name-or-a
 
 
 
-To update the project:
+To update your project:
 git pull --rebase
+or
+git pull
 
 
+To add files to the git hub
+git add myfile.java
+git commit -m "my message"
+git push
+
+
+
+
+French related doc:
+http://sebastien.lorber.free.fr/SCJP/scjp.html
+
+
+Chapter1 exercices (not yet on github):
+http://sebastien.lorber.free.fr/SCJP/SCJP1.rar
+
+
+
+See you soon, Sebastien Lorber.
